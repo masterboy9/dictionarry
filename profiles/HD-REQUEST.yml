@@ -351,6 +351,11 @@ qualities:
     name: WEBRip-720p
   - id: 12
     name: HDTV-720p
+  - id: 6
+    name: Remux-2160p
+  - id: 3
+    name: Remux-1080p
+
 upgrade_until:
   id: 4
   name: Bluray-2160p
