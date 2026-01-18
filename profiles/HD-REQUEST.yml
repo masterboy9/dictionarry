@@ -86,11 +86,7 @@ custom_formats:
   score: 20000
 - name: Remux (Source)
   score: 20000
-- name: Remux (Quality Match)
-  score: 20000
 - name: Full Disc
-  score: 20000
-- name: Full Disc (Quality Match)
   score: 20000
 - name: 2160p Remux
   score: 1000 # Tie breaker bonuses
@@ -329,17 +325,18 @@ custom_formats_sonarr:
   score: 3000
 
 qualities:
-# Note: Remuxes must be enabled here, but their Low CF Score will push them to the bottom.
 - id: -1
   name: Master Profile
   description: Custom Format Controlled
   qualities:
+  # The IDs below are standard Sonarr IDs.
+  # The list order here represents your requested hierarchy.
   - id: 4
     name: Bluray-2160p
-  - id: 5
-    name: WEBDL-2160p
   - id: 10
     name: Bluray-1080p
+  - id: 5
+    name: WEBDL-2160p
   - id: 9
     name: WEBDL-1080p
   - id: 11
