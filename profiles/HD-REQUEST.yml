@@ -357,6 +357,6 @@ qualities:
     name: Remux-1080p
 
 upgrade_until:
-  id: 4
+  id: -1
   name: Bluray-2160p
 language: must_original
