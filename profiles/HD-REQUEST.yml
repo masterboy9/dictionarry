@@ -1,4 +1,4 @@
-name: Master Profile (Custom Hierarchy)
+name: HD-REQUEST
 description: 'Priority: 2160p Bluray > 1080p Bluray > 2160p WEB > 1080p WEB > 720p Bluray > 1080p HDTV > 720p WEB > 720p HDTV. Remux as last resort fallback.'
 tags:
 - Master
